@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+#error{
+    color: red;
+    font-size: medium;
+}
+#picture.action{
+    height: 150px;
+    width: 150px;
+    -webkit-transition:all;
+    transform:2s height width ;
+}
+
